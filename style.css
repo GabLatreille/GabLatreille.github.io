@@ -1,0 +1,207 @@
+@font-face {
+  font-family: Prime;
+  src: url(font/Prime_Regular.otf);
+}
+
+/* default params */
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li, section, video {
+  font-family: 'Prime';
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+/* black menu */
+
+nav {
+  font-family: 'Prime';
+  background: #333;
+  overflow: auto;
+  padding: 60px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Gabrielle on the black menu */
+
+nav h1 {
+  color: #eee;
+  font-size: 42px;
+  float: left;
+}
+
+/* Latreille on the black menu*/
+
+nav h1>a {
+  color: #fda63a;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: all 200ms linear;
+}
+
+/* colour when you hover on Latreille on the black menu */
+
+nav h1>a:hover {
+  background: none;
+  color: #008080;
+}
+
+/* ul is the menu items */
+
+ul {
+  text-align: center;
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+  margin: 0 10px;
+  color: #eee;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: bold;
+  transition: all 200ms linear;
+}
+
+/* when you hover over menu items */
+
+nav a:hover {
+  color: #008080;
+  background: #fff;
+}
+
+/* white fixed menu */
+
+nav.small {
+  font-family: 'Prime';
+  background: #fff;
+  padding: 20px 40px;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0px 2px 2px #fff;
+}
+
+/* menu items and L. on white menu */
+
+nav.small h1, nav.small a {
+  color: #333;
+}
+
+nav.small h1 {
+  font-size: 38px;
+}
+
+/* Gab on white menu */
+
+nav.small h1>a {
+  color: #008080;
+}
+
+/* when you hover over Gab on white menu */
+
+nav.small h1>a:hover {
+  color: #fda63a;
+  background: none;
+}
+
+/* when you hover over menu items on white menu */
+
+nav.small a:hover {
+  color: #fda63a;
+  background: #333;
+}
+
+/* background image */
+
+div.content {
+  font-family: 'Prime';
+  background-image: url("img/darkpurple.png");
+}
+
+/* content */
+
+div.content h2 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  text-shadow: 2px 2px 2px #333;
+}
+
+div.content h2::before {
+  display: inline-block;
+  height: 100px;
+  content: '';
+  margin-bottom: 40px;
+}
+
+a {
+  color: white;
+}
+
+p {
+  color: white;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 19px;
+}
+
+p.pProject {
+  text-align: left;
+  height: 180px;
+}
+
+
+img {
+  height: 80px;
+  padding-right: 10px;
+}
+
+img.projectsIMG {
+  height: 160px;
+  float: left;
+  color:transparent;
+}
+
+img.projectsIMG:hover {
+  opacity: .8;
+  color:white;
+}
+
+span{
+  color:white;
+}
+
+span.dot {
+  height: 25px;
+  width: 25px;
+  background-image: url("img/lightpurple.png");
+  background-size: 25px 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
