@@ -1,0 +1,61 @@
+@font-face {
+  font-family: HelveticaRounded;
+  src: url(font/HelveticaRounded-Bold.otf);
+}
+
+html {
+  background: #062f4f url("img/bg_index.png") no-repeat center -100px;
+
+}
+
+.center{
+    height: auto;
+    width: auto;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -130px;
+    margin-left: -290px;
+
+}
+
+.name{
+  color: white;
+  font-family: 'HelveticaRounded';
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.about {
+  color: white;
+  font-family: 'HelveticaRounded';
+  text-align: center;
+  font-size: 18px;
+}
+
+.menu{
+  height: auto;
+  width: auto;
+
+  position: fixed;
+  left: 50%;
+  margin-left: -90px;
+
+  bottom: 10px;
+  font-family: 'HelveticaRounded';
+  text-align: center;
+}
+
+.menu-item{
+  text-decoration: none;
+  color: white;
+}
+
+.menu-item:hover{
+  color: black;
+  /* grdient instead of black */
+}
